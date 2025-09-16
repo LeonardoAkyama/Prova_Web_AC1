@@ -1,0 +1,11 @@
+<h1>Calculo de IMC</h1>
+
+<input [(ngModel)]="val1" type="number">
+<p>Peso:{{ val1 }}</p>
+
+<input [(ngModel)]="val2" type="number">
+<p>Altura:{{ val2 }}</p>
+
+<button (click)="Calculo()">Calcular</button>
+
+<p>IMC: {{ result }} </p>
